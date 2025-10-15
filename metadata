@@ -1,0 +1,18 @@
+
+
+| **Column**            | **Example**                  | **Datatype** |
+|------------------------|------------------------------|--------------|
+| ride_id                | A847FADBBC638E45             | General      |
+| rideable_type          | docked_bike                  | General      |
+| started_at             | 4/26/2020 17:45              | Custom       |
+| ended_at               | 4/26/2020 18:12              | Custom       |
+| start_name_station     | Eckhart Park                 | General      |
+| start_station_id       | 86                           | General      |
+| end_station_name       | Lincoln Ave & Diversey Pkwy  | General      |
+| end_station_id         | 152                          | General      |
+| start_lat              | 41.8964                      | General      |
+| start_lng              | -87.661                      | General      |
+| end_lat                | 41.9322                      | General      |
+| end_lng                | -87.6586                     | General      |
+| member_casual          | Member                       | General      |
+

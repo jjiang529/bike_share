@@ -23,34 +23,38 @@ Joining all 12 datasets using UNION ALL syntax since all of the datasets contain
 
 Merged dataset contains 3,489,431 records of observations.
 
-Cleaning data
-    - Removing some columns as it would be unnesscary for my analysis 
-        - 4 columns removed
-    - Checking for duplicates, no duplicates found
-    - Extract date and time from datetime columns for better readability
-        - 4 new columns added
-    - Create ride_length columns
-    - Create week_day column
-    - Checking for NULL cells, none founded but instead empty strings founded
-        - Convert all empty string into NULLs 
-            -count 122,175 empty for start_station_name
-            -count 143,242 empty for end_station_name
-        - Removed all the NULL cells
-    - Checking for bad data
-        - Notice that MAX ride_length is 58,720, this is outliers to consider
-            - 58720 is basically multiple days
-        - Filtered ride_length column to remove ride_length that is more than 1440 to have only data within the 24hrs 
-        
- Final clean data contains 3,241,737 rows and 12 columns
-    - 247,694 rows of data removed
+### Cleaning data
+
+- **Removing some columns** as it would be unnecessary for my analysis  
+  - 4 columns removed  
+- **Checking for duplicates** — no duplicates found  
+- **Extracted date and time** from datetime columns for better readability  
+  - 4 new columns added  
+- **Created `ride_length` column**  
+- **Created `week_day` column**  
+- **Checked for NULL cells** — none found, but empty strings were detected  
+  - Converted all empty strings into NULLs  
+  - Counted 122,175 empty for `start_station_name`  
+  - Counted 143,242 empty for `end_station_name`  
+  - Removed all NULL cells  
+- **Checked for bad data**  
+  - Noticed MAX ride_length is 58,720 (outlier — represents multiple days)  
+  - Filtered ride_length column to remove values > 1440 (limit to 24 hours)
+
+**Final clean data:**  
+- 3,241,737 rows and 12 columns  
+- 247,694 rows removed
+
     
 
 # Analysis
- I want to know the populations of riders
- ![Membership Summary](bike_share_image/membership_summary.png)  
+
+![Membership Summary](bike_share_image/membership_summary.png)
 *Figure 1: Membership breakdown showing 59% members and 41% casual riders.*
 
-    - I want to know riders monthly activity level 
+
+I want to know riders monthly activity level 
+
     - I want to know what times are riders most active
     - I want to know riders average ride length 
     - What days are riders most active

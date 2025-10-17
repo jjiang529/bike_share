@@ -1,10 +1,10 @@
 # Google Case Study: 
 
-perform data analysis for a fictional bike-share company in order to help them attract more riders
+Perform data analysis for a fictional bike-share company in order to help them attract more riders
 
 
-# Business Objective:
-    - Converting casual riders into annual members 
+# Business Objective:  
+Converting casual riders into annual members 
 
 # Business Problem
  1) How do annual members and casual riders use Cycleistic bike differently?
@@ -13,8 +13,8 @@ perform data analysis for a fictional bike-share company in order to help them a
 
 
 # Data sources:
-    - From 
-    - 12 csv files of approx. 2-3 millions rows of data, 12 columns of data
+From 
+12 csv files of approx. 2-3 millions rows of data, 12 columns of data
 
 # Preparing data
 SQL
@@ -50,15 +50,21 @@ Merged dataset contains 3,489,431 records of observations.
 # Analysis
 
 ![Membership Summary](bike_share_image/membership_summary.png)  
-*Figure 1: Membership breakdown showing 59% members and 41% casual riders.*
+*Figure 1: Membership breakdown showing 59% members and 41% casual riders.*  
 
 
-I want to know riders monthly activity level 
+![Average Ride Length](bike_share_image/Average_ride_length.png)   
+*Figure 2: Average ride length between casual and member*  
 
-    - I want to know what times are riders most active
-    - I want to know riders average ride length 
-    - What days are riders most active
-    - Which bikes are riders using the most
+![Weekdays Engagement](bike_share_image/day_of_wekk.png)  
+*Figure 3: Riders Weekdays Engagment*  
+
+![Frequent Hours](bike_share_image/active_hours.png)  
+*Figure 4: Distribution of Riding Hours*  
+
+![Monthly Activty](bike_share_image/ride_month.png)  
+*Figure 5: Monthly Ride Trends by Rider Type*
+
 
 # Summary
 
@@ -69,7 +75,7 @@ Cyclistic services. Members accounted for 59% of all rides, while casual riders 
 fluctuation in ridership. Activity increases substantially during the warmer months, peaking at 18.4% of total rides in August. In contrast, colder months such as January and February account for only 1–3% of total rides, indicating that rider participation drops sharply during winter conditions.
 
     The daily riding patterns between casual and member riders are also very similar. 
-Both groups are most active between 2 PM and 6 PM, with the highest participation on weekends, particularly Saturdays. Additionally, the docked bike is the most popular choice among both riders, accounting for the majority of total rides across all bike categories.
+Both groups are most active between 2 PM and 6 PM, with the highest participation on weekends, particularly Saturdays. Additionally, the docked bike is the most popular choice among both riders, accounting for the 78% of total rides across all bike categories.
 
     However, there is a distinct difference in trip behavior. While both rider groups 
 often start from similar locations, members tend to end their trips at different destinations, suggesting point-to-point commuting. In contrast, casual riders are more likely to return to their starting locations, indicating recreational or leisure-based usage.

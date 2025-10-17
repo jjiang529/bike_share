@@ -17,7 +17,7 @@ From
 12 csv files of approx. 2-3 millions rows of data, 12 columns of data
 
 # Preparing data
-SQL
+Tools: SQL
 
 Joining all 12 datasets using UNION ALL syntax since all of the datasets contains the same amount of columns amd names.
 
@@ -49,78 +49,93 @@ Merged dataset contains 3,489,431 records of observations.
 
 # Analysis
 
-![Membership Summary](bike_share_image/membership_summary.png)  
+Tools: R
+
 *Figure 1: Membership breakdown showing 59% members and 41% casual riders.*  
+![Membership Summary](bike_share_image/membership_summary.png)  
 
-
-![Average Ride Length](bike_share_image/Average_ride_length.png)   
 *Figure 2: Average ride length between casual and member*  
+![Average Ride Length](bike_share_image/Average_ride_length.png)   
 
-![Weekdays Engagement](bike_share_image/day_of_wekk.png)  
 *Figure 3: Riders Weekdays Engagment*  
+![Weekdays Engagement](bike_share_image/day_of_wekk.png)  
 
+*Figure 4: Distribution of Riding Hours*  
 ![Frequent Hours](bike_share_image/active_hours.png)  
 *Figure 4: Distribution of Riding Hours*  
 
+*Figure 5: Monthly Ride Trends by Rider Type*  
 ![Monthly Activty](bike_share_image/ride_month.png)  
-*Figure 5: Monthly Ride Trends by Rider Type*
 
 
 # Summary
 
-    From April 2020 to February 2021, a total of 3,241,737 rides were taken using   
-Cyclistic services. Members accounted for 59% of all rides, while casual riders made up 41%. Although members show higher overall engagement, casual riders take significantly longer trips, averaging 37 minutes compared to 16 minutes for members.
+From April 2020 to February 2021, a total of **3,241,737 rides** were taken using **Cyclictic** services.  
+Members accounted for **59%** of all rides, while casual riders made up **41%**.  
+Although members show higher overall engagement, casual riders take significantly longer trips, averaging **37 minutes** compared to **16 minutes** for members.  
 
-    Analysis of rider participation throughout the year reveals a clear seasonal 
-fluctuation in ridership. Activity increases substantially during the warmer months, peaking at 18.4% of total rides in August. In contrast, colder months such as January and February account for only 1–3% of total rides, indicating that rider participation drops sharply during winter conditions.
+Analysis of rider participation throughout the year reveals a clear **seasonal fluctuation** in ridership.  
+Activity increases substantially during the warmer months, peaking at **18.4%** of total rides in **August**.  
+In contrast, colder months such as **January** and **February** account for only **1–3%** of total rides, indicating that participation drops sharply during winter conditions.  
 
-    The daily riding patterns between casual and member riders are also very similar. 
-Both groups are most active between 2 PM and 6 PM, with the highest participation on weekends, particularly Saturdays. Additionally, the docked bike is the most popular choice among both riders, accounting for the 78% of total rides across all bike categories.
+The daily riding patterns between **casual** and **member riders** are also very similar.  
+Both groups are most active between **2 PM and 6 PM**, with the highest participation on **weekends**, particularly **Saturdays**.  
+Additionally, the **docked bike** is the most popular choice among both riders, accounting for the majority of total rides across all bike categories.  
 
-    However, there is a distinct difference in trip behavior. While both rider groups 
-often start from similar locations, members tend to end their trips at different destinations, suggesting point-to-point commuting. In contrast, casual riders are more likely to return to their starting locations, indicating recreational or leisure-based usage.
+However, there is a distinct difference in **trip behavior**.  
+While both groups often start from similar locations, members tend to end their trips at different destinations — suggesting **point-to-point commuting**.  
+In contrast, casual riders are more likely to return to their starting locations, indicating **recreational or leisure-based usage**.  
 
-    Although demographic data is unavailable to draw firm conclusions, the findings 
-suggest that casual riders primarily use Cyclistic services for leisure, whereas members exhibit commuting patterns and consistent year-round usage.
+Although demographic data is unavailable to draw firm conclusions, the findings suggest that **casual riders primarily use Cyclictic services for leisure**, whereas **members exhibit commuting patterns** and consistent **year-round usage**.
 
 
 # Recommendations
 
-1. How do annual members and casual riders use Cyclistic bikes differently?  
+### 1. How do annual members and casual riders use Cyclistic bikes differently?
 
-The main difference between how causal and member use the ride differently is the purpose of it. 
+The main difference between how casual and member riders use the service lies in **purpose**.
 
-Looking at only the data of casual rider, they account for 41% of the total activity but ride the bike approx 50% longer than member rider. 
+Looking at the data, **casual riders** account for **41%** of total activity but take rides approximately **50% longer** than members.  
+Casual riders typically use the bikes for **leisure**, especially during weekends, often in areas near **parks** or **bike-friendly neighborhoods**.
 
-Casual rides the bike longer than members by more than double especially during the weekends, this can be explain that they use it for leisure purpose at the location where it is near the park, bike-friendly neighbors, and etc 
+In contrast, **members** show more consistent, **commute-based usage**, likely for daily travel to work or school.
 
-2. Why would casual riders buy Cyclistic annual memberships?  
+---
 
-Varieties of bike available for all ages and most importantly, provides bikes for assistance needs 
+### 2. Why would casual riders buy Cyclistic annual memberships?
 
-Options for consumer to transition from car to bike  
+- Variety of bikes available for all ages and needs (including assistance bikes)  
+- Encourages **transition from cars to bikes**, promoting eco-friendly transport  
+- Provides **greater flexibility** in transportation  
+- Supports the movement toward a **greener environment**  
 
-More flexibility for transportations 
+---
 
-Supporting the movement behind Greener environment 
+### 3. How can Cyclistic use digital media to influence casual riders to become members?
 
-3. How can Cyclistic use digital media to infleunce casual riders to become members? 
+Casual riders are more likely to return to the same starting location.  
+Cyclistic can take advantage of this behavior by using **digital and physical marketing**:
 
-Casual rider are more likely to return at the same location where they pick up the bikes. We can have poster or signage with QR codes that link straight to the website for registering to become members 
-    -Highlight the availability of different types bikes to give casual rider more reasons to get annual membership 
+- Highlight the **availability of different bike types** to attract riders to annual memberships  
+- Use **QR codes** on signage or bikes that link directly to membership registration  
+- Provide **membership promotions or discounts** during slow seasons to encourage sign-ups  
+- Create a **referral system**, since data shows that where members ride, casual riders are also highly likely to be nearby  
 
-During slow seasons, we can provide membership promotions with discount to attract casual rider to become member 
+---
 
 
-Create a referral system, data suggested that where member are, causal rider are highly likey to be there as well. 
 
 
-# Feedbacks to myself
-I learn serveral things from this project:
-    - The importance of metadata
-        - I wasn't sure what classic bike and docked bike refers to exactly 
-    - The importance of having 
-        - The lack of demographic data of the user
+# Feedback to Myself
+
+I learned several things from this project:
+
+- **The importance of metadata**  
+  - I wasn't sure what *classic bike* and *docked bike* referred to exactly.
+
+- **The importance of having more contextual data**  
+  - The lack of demographic information limited the depth of the analysis.
+
 
 
 

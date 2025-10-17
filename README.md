@@ -49,7 +49,7 @@ Merged dataset contains 3,489,431 records of observations.
 
 # Analysis
 
-![Membership Summary](bike_share_image/membership_summary.png)
+![Membership Summary](bike_share_image/membership_summary.png)  
 *Figure 1: Membership breakdown showing 59% members and 41% casual riders.*
 
 

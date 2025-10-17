@@ -62,7 +62,6 @@ Tools: R
 
 *Figure 4: Distribution of Riding Hours*  
 ![Frequent Hours](bike_share_image/active_hours.png)  
-*Figure 4: Distribution of Riding Hours*  
 
 *Figure 5: Monthly Ride Trends by Rider Type*  
 ![Monthly Activty](bike_share_image/ride_month.png)  
@@ -87,6 +86,12 @@ While both groups often start from similar locations, members tend to end their 
 In contrast, casual riders are more likely to return to their starting locations, indicating **recreational or leisure-based usage**.  
 
 Although demographic data is unavailable to draw firm conclusions, the findings suggest that **casual riders primarily use Cyclictic services for leisure**, whereas **members exhibit commuting patterns** and consistent **year-round usage**.
+
+
+# Dashboard
+Tool: Tableau
+
+![dashboard](bike_share_image/dashboard.png)  
 
 
 # Recommendations
